@@ -1,0 +1,9 @@
+@mixin  style($size) {
+  text-indent: 25px;
+  font-weight: 900;
+  font-size: $size;
+}
+
+.content {
+  @include style(22px);
+}
